@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - TT&J Poultry</title>
+    <meta name="description" content="Photo and video gallery showcasing TT&J Poultry farm operations, products, and happy customers across Kenya.">
+    <!-- Same head content as other pages -->
+     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+</head>
+<body>
+    <!-- header as other pages -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="TT&J Poultry Logo" width="150">
+                </a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li class="dropdown">
+                        <a href="#">Products <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="products/live-chicken.html">Live Chicken</a></li>
+                            <li><a href="products/chicken-meat.html">Chicken Meat</a></li>
+                            <li><a href="products/eggs.html">Eggs</a></li>
+                            <li><a href="products/chicks.html">Chicks</a></li>
+                            <li><a href="products/incubation.html">Incubation Services</a></li>
+                            <li><a href="products/feeds.html">Feeds & Supplements</a></li>
+                            <li><a href="products/consultations.html">Coop Consultations</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="blog/index.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/hero-bg.jpg');">
+            <div class="container">
+                <h1>Our Gallery</h1>
+                <p>A visual journey through our poultry farm</p>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <div class="container">
+                <div class="gallery-tabs">
+                    <button class="tab-btn active" data-tab="photos">Photos</button>
+                    <button class="tab-btn" data-tab="videos">Videos</button>
+                </div>
+                
+                <div class="tab-content active" id="photos">
+                    <div class="gallery-grid">
+                        <a href="../images/farm-1.jpg" class="gallery-item" data-sub-html="<h4>Our Main Poultry House</h4><p>Modern housing for our layers with automated feeding systems</p>">
+                            <img src="../images/farm-1.jpg" alt="Poultry House">
+                            <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                        </a>
+                        
+                        <a href="../images/chicken.webp" class="gallery-item" data-sub-html="<h4>Healthy Broilers</h4><p>Our broiler chickens ready for market</p>">
+                            <img src="../images/chicken.webp" alt="Broiler Chickens">
+                            <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                        </a>
+                        
+                        <a href="../images/chicks.jpg" class="gallery-item" data-sub-html="<h4>Day-Old Chicks</h4><p>Vaccinated chicks ready for rearing</p>">
+                            <img src="../images/chicks.jpg" alt="Day-Old Chicks">
+                            <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                        </a>
+                        
+                        <a href="../images/eggs.jpg" class="gallery-item" data-sub-html="<h4>Fresh Eggs</h4><p>Eggs packed in trays ready for delivery</p>">
+                            <img src="../images/eggs.jpg" alt="Fresh Eggs">
+                            <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                        </a>
+                        
+                        <a href="../images/feeds.jpg" class="gallery-item" data-sub-html="<h4>Quality Feeds</h4><p>Nutritionally balanced poultry feeds</p>">
+                            <img src="../images/feeds.avif" alt="Poultry Feeds">
+                            <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                        </a>
+                        
+                        <a href="../images/testimonial-1.jpg" class="gallery-item" data-sub-html="<h4>Happy Customer</h4><p>John from Nairobi with his TT&J chickens</p>">
+                            <img src="../images/testimonial-1.jpg" alt="Happy Customer">
+                            <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="videos">
+                    <div class="video-gallery">
+                        <div class="video-card">
+                            <div class="video-container">
+                                <blockquote class="tiktok-embed"
+                                  cite="https://www.tiktok.com/@tt.jpoultryfarm/video/7385623020381031686"
+                                  data-video-id="7385623020381031686"
+                                  style="max-width: 605px; min-width: 325px;">
+                                  <section></section>
+                                </blockquote>
+                            </div>
+                            <h3>Farm Tour</h3>
+                            <p>Take a guided tour of our poultry facilities</p>
+                        </div>
+                        
+                        <div class="video-card">
+                             <div class="video-container">
+                                 <blockquote class="instagram-media"
+                                     data-instgrm-permalink="https://www.instagram.com/reel/C9X5i9CslaW/"
+                                     data-instgrm-version="14"
+                                     style="background:#FFF; border:0; margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%">
+                                 </blockquote>
+                             </div>
+                             <h3>Feeding Process</h3>
+                             <p>How we feed our chickens for optimal growth</p>
+                        </div>
+
+                        
+                        <div class="video-card">
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/example3" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <h3>Egg Collection</h3>
+                            <p>Our hygienic egg collection and packaging</p>
+                        </div>
+                        
+                        <div class="video-card">
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/example4" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <h3>Customer Testimonials</h3>
+                            <p>What our customers say about our products</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="visit-invitation">
+                    <h2>Visit Our Farm</h2>
+                    <p>Seeing is believing! Schedule a visit to our farm to see our operations firsthand.</p>
+                    <a href="contact.html" class="btn btn-primary">Book a Visit</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="images/logo.png" alt="TT&J Poultry Logo" width="150">
+                    <p>Quality poultry products and services for Kenya.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/@ttjpoultry" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/tt.jpoultryfarm" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products/live-chicken.html">Products</a></li>
+                        <li><a href="blog/index.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="products/live-chicken.html">Live Chicken</a></li>
+                        <li><a href="products/chicken-meat.html">Chicken Meat</a></li>
+                        <li><a href="products/eggs.html">Eggs</a></li>
+                        <li><a href="products/chicks.html">Chicks</a></li>
+                        <li><a href="products/feeds.html">Feeds</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-phone-alt"></i> <a href="tel:+254792080858">+254 792 080 858</a></li>
+                        <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/254792080858">WhatsApp</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:tyanne665@gmail.com">tyanne665@gmail.com</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> Nakuru, Kenya</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> TT&J Poultry. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script>
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+        // Gallery lightbox
+        document.addEventListener('DOMContentLoaded', function() {
+            if (document.querySelector('.gallery-grid')) {
+                lightGallery(document.querySelector('.gallery-grid'), {
+                    selector: '.gallery-item',
+                    download: false
+                });
+            }
+            
+            // Tab functionality
+            const tabBtns = document.querySelectorAll('.tab-btn');
+            tabBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const tabId = this.getAttribute('data-tab');
+                    
+                    // Remove active class from all buttons and contents
+                    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                    
+                    // Add active class to clicked button and corresponding content
+                    this.classList.add('active');
+                    document.getElementById(tabId).classList.add('active');
+                });
+            });
+        });
+    </script>
+
+    <script async src="https://www.tiktok.com/embed.js"></script>
+
+</body>
+</html>

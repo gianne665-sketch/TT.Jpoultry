@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions - TT&J Poultry</title>
+    <meta name="description" content="Find answers to common questions about TT&J Poultry products, delivery, payments, and poultry farming in Kenya.">
+    <!-- Same head content as other pages -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- header as other pages -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="TT&J Poultry Logo" width="150">
+                </a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li class="dropdown">
+                        <a href="#">Products <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="products/live-chicken.html">Live Chicken</a></li>
+                            <li><a href="products/chicken-meat.html">Chicken Meat</a></li>
+                            <li><a href="products/eggs.html">Eggs</a></li>
+                            <li><a href="products/chicks.html">Chicks</a></li>
+                            <li><a href="products/incubation.html">Incubation Services</a></li>
+                            <li><a href="products/feeds.html">Feeds & Supplements</a></li>
+                            <li><a href="products/consultations.html">Coop Consultations</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="blog/index.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/hero-bg.jpg');">
+            <div class="container">
+                <h1>FAQs</h1>
+                <p>Answers to your common questions</p>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div class="container">
+                <div class="faq-intro">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Can't find what you're looking for? <a href="contact.html">Contact us</a> directly for more information.</p>
+                </div>
+                
+                <div class="faq-categories">
+                    <button class="category-btn active" data-category="general">General</button>
+                    <button class="category-btn" data-category="products">Products</button>
+                    <button class="category-btn" data-category="delivery">Delivery</button>
+                    <button class="category-btn" data-category="farming">Poultry Farming</button>
+                </div>
+                
+                <div class="faq-content">
+                    <div class="faq-category active" id="general">
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                Where is TT&J Poultry located?
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Our main farm and offices are located off Thika Road in Nairobi. We have distribution points in several major towns across Kenya including Kisumu, Eldoret, and Mombasa.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                What are your business hours?
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Our offices are open Monday to Friday from 8:00 AM to 5:00 PM, and Saturdays from 9:00 AM to 2:00 PM. We're closed on Sundays and public holidays.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                How can I pay for my order?
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>We accept cash on delivery, M-Pesa payments, and bank transfers. For large orders, we may require a deposit before processing your order.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-category" id="products">
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                How much is a tray of eggs?
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Our egg prices vary depending on market conditions and order quantity. As of the current date, a tray of eggs costs KSh 300-350. Please contact our sales team for the most up-to-date pricing.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                Do you sell vaccinated chicks?
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Yes, all our day-old chicks come vaccinated against common poultry diseases including Marek's Disease, Newcastle Disease, and Infectious Bronchitis. We provide a vaccination schedule with each purchase.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                What types of chicken feeds do you offer?
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>We stock a range of high-quality feeds for different growth stages:
+                                    <ul>
+                                        <li>Starter feed (0-3 weeks)</li>
+                                        <li>Grower feed (4-6 weeks)</li>
+                                        <li>Finisher feed (7 weeks to market)</li>
+                                        <li>Layer feed (for egg production)</li>
+                                        <li>Broiler feed (for meat production)</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-category" id="delivery">
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                Do you deliver across Kenya?
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Yes, we deliver to all major towns and cities in Kenya. Delivery charges vary depending on location and order size. We offer free delivery within Nairobi for orders above KSh 5,000.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                How long does delivery take?
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Delivery times vary by location:
+                                    <ul>
+                                        <li>Nairobi: Same day for orders placed before 12pm</li>
+                                        <li>Other major towns: 1-2 business days</li>
+                                        <li>Upcountry areas: 2-3 business days (depending on our delivery schedule)</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                Can I pick up my order from your farm?
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Yes, customers are welcome to pick up orders from our Nairobi facility. Please arrange pickup in advance so we can have your order ready. Pickup hours are Monday-Saturday, 8am-4pm.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-category" id="farming">
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                What's the best chicken breed for beginners?
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>For beginners, we recommend:
+                                    <ul>
+                                        <li><strong>Broilers:</strong> Fast-growing with good feed conversion</li>
+                                        <li><strong>Kuroiler:</strong> Hardy dual-purpose breed good for meat and eggs</li>
+                                        <li><strong>Kenbro:</strong> Another hardy dual-purpose breed</li>
+                                    </ul>
+                                    Our team can help you choose based on your specific goals and location.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                How much space do chickens need?
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Space requirements vary by age and type:
+                                    <ul>
+                                        <li>Day-old chicks: 50 chicks per square meter</li>
+                                        <li>Growing birds: 10-12 birds per square meter</li>
+                                        <li>Layers: 5-7 birds per square meter</li>
+                                    </ul>
+                                    Proper ventilation is equally important as space.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                Do you offer poultry farming training?
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Yes, we conduct regular training sessions for both beginners and experienced farmers. Topics include:
+                                    <ul>
+                                        <li>Brooding management</li>
+                                        <li>Feeding programs</li>
+                                        <li>Disease prevention</li>
+                                        <li>Business aspects of poultry farming</li>
+                                    </ul>
+                                    Check our <a href="blog/index.html">blog</a> for upcoming training dates or contact us for one-on-one consultations.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="more-questions">
+                    <h3>Still have questions?</h3>
+                    <p>Our poultry experts are ready to help you with any additional questions you may have.</p>
+                    <div class="contact-options">
+                        <a href="tel:+254712345678" class="btn btn-secondary">
+                            <i class="fas fa-phone-alt"></i> Call Us
+                        </a>
+                        <button class="whatsapp-btn" data-product="General Inquiry">
+                            <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="images/logo.png" alt="TT&J Poultry Logo" width="150">
+                    <p>Quality poultry products and services for Kenya.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/@ttjpoultry" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/tt.jpoultryfarm" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products/live-chicken.html">Products</a></li>
+                        <li><a href="blog/index.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="products/live-chicken.html">Live Chicken</a></li>
+                        <li><a href="products/chicken-meat.html">Chicken Meat</a></li>
+                        <li><a href="products/eggs.html">Eggs</a></li>
+                        <li><a href="products/chicks.html">Chicks</a></li>
+                        <li><a href="products/feeds.html">Feeds</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-phone-alt"></i> <a href="tel:+254792080858">+254 792 080 858</a></li>
+                        <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/254792080858">WhatsApp</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:tyanne665@gmail.com">tyanne665@gmail.com</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> Nakuru, Kenya</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> TT&J Poultry. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+        // FAQ functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Category tabs
+            const categoryBtns = document.querySelectorAll('.category-btn');
+            categoryBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const categoryId = this.getAttribute('data-category');
+                    
+                    // Remove active class from all buttons and categories
+                    document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+                    document.querySelectorAll('.faq-category').forEach(c => c.classList.remove('active'));
+                    
+                    // Add active class to clicked button and corresponding category
+                    this.classList.add('active');
+                    document.getElementById(categoryId).classList.add('active');
+                });
+            });
+            
+            // FAQ accordion
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    this.classList.toggle('active');
+                    const answer = this.nextElementSibling;
+                    const icon = this.querySelector('i');
+                    
+                    if (this.classList.contains('active')) {
+                        answer.style.maxHeight = answer.scrollHeight + 'px';
+                        icon.classList.remove('fa-chevron-down');
+                        icon.classList.add('fa-chevron-up');
+                    } else {
+                        answer.style.maxHeight = '0';
+                        icon.classList.remove('fa-chevron-up');
+                        icon.classList.add('fa-chevron-down');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

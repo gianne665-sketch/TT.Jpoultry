@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - TT&J Poultry</title>
+    <meta name="description" content="Get in touch with TT&J Poultry for inquiries, orders, or farm visits. We're available via phone, WhatsApp, email, or visit our Nairobi office.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Same head content as other pages -->
+</head>
+<body>
+    <!-- header as other pages -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="TT&J Poultry Logo" width="150">
+                </a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li class="dropdown">
+                        <a href="#">Products <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="products/live-chicken.html">Live Chicken</a></li>
+                            <li><a href="products/chicken-meat.html">Chicken Meat</a></li>
+                            <li><a href="products/eggs.html">Eggs</a></li>
+                            <li><a href="products/chicks.html">Chicks</a></li>
+                            <li><a href="products/incubation.html">Incubation Services</a></li>
+                            <li><a href="products/feeds.html">Feeds & Supplements</a></li>
+                            <li><a href="products/consultations.html">Coop Consultations</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="blog/index.html">Blog</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/farm-1.jpg');">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Get in touch with our poultry experts</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Our Contacts</h2>
+                        <div class="contact-method">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p><a href="tel:+254712345678">+254 712 345 678</a></p>
+                                <p><a href="tel:+254733456789">+254 733 456 789</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h3>WhatsApp</h3>
+                                <p><a href="https://wa.me/254712345678">Chat with us</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p><a href="mailto:info@ttjpoultry.co.ke">info@ttjpoultry.co.ke</a></p>
+                                <p><a href="mailto:sales@ttjpoultry.co.ke">sales@ttjpoultry.co.ke</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Address</h3>
+                                <p>TT&J Poultry Farm</p>
+                                <p>Ol Kalou, Nyandarua</p>
+                                <p>P.O. Box 12345-00100</p>
+                            </div>
+                        </div>
+                        
+                        <div class="business-hours">
+                            <h3><i class="fas fa-clock"></i> Business Hours</h3>
+                            <ul>
+                                <li>Monday - Friday: 8:00 AM - 6:00 PM</li>
+                                <li>Saturday: 9:00 AM - 6:00 PM</li>
+                                <li>Sunday: 9:00 AM - 6:00 PM</li>
+                                <li>Emergency contacts available 24/7</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h2>Send Us a Message</h2>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <select id="subject" name="subject">
+                                    <option value="general">General Inquiry</option>
+                                    <option value="order">Product Order</option>
+                                    <option value="delivery">Delivery Inquiry</option>
+                                    <option value="visit">Farm Visit Request</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="map-section">
+                    <h2>Our Location</h2>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7979.552274430908!2d36.347491815952566!3d-0.2634697999042974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1829b97742b56941%3A0x31844ca18a04cba1!2sMwihoti%20Secondary%20School!5e0!3m2!1sen!2ske!4v1754606752336!5m2!1sen!2ske" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                
+                <div class="departments-contact">
+                    <h2>Department Contacts</h2>
+                    <div class="departments-grid">
+                        <div class="department-card">
+                            <i class="fas fa-shopping-cart"></i>
+                            <h3>Sales</h3>
+                            <p><a href="tel:+254792080858">+254 792 080 858</a></p>
+                            <p><a href="mailto:tyanne665@gmail.com">tyanne665@gmail.com</a></p>
+                        </div>
+                        
+                        <div class="department-card">
+                            <i class="fas fa-truck"></i>
+                            <h3>Delivery</h3>
+                            <p><a href="tel:+254792080858">+254 792 080 858</a></p>
+                            <p><a href="mailto:tyanne665@gmail.com">tyanne665@gmail.com</a></p>
+                        </div>
+                        
+                        <div class="department-card">
+                            <i class="fas fa-question-circle"></i>
+                            <h3>Support</h3>
+                            <p><a href="tel:+254792080858">+254 792 080 858</a></p>
+                            <p><a href="mailto:tyanne665@gmail.com">tyanne665@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="images/logo.png" alt="TT&J Poultry Logo" width="150">
+                    <p>Quality poultry products and services for Kenya.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/ttjpoultry" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/@ttjpoultry" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/tt.jpoultryfarm" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products/live-chicken.html">Products</a></li>
+                        <li><a href="blog/index.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="products/live-chicken.html">Live Chicken</a></li>
+                        <li><a href="products/chicken-meat.html">Chicken Meat</a></li>
+                        <li><a href="products/eggs.html">Eggs</a></li>
+                        <li><a href="products/chicks.html">Chicks</a></li>
+                        <li><a href="products/feeds.html">Feeds</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-phone-alt"></i> <a href="tel:+254792080858">+254 792 080 858</a></li>
+                        <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/254792080858">WhatsApp</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:tyanne665@gmail.com">tyanne665@gmail.com</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> Nakuru, Kenya</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> TT&J Poultry. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! We will contact you shortly.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
